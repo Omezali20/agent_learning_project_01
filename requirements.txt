@@ -1,0 +1,24 @@
+# Core agent framework
+langchain>=1.0.0
+langgraph>=0.2.0
+
+# LLM provider (Groq)
+langchain-groq>=0.2.0
+
+# Web search tool provider (Tavily's own maintained package)
+langchain-tavily>=0.1.0
+
+# Used directly by our custom Wikipedia tool (see tools.py)
+wikipedia>=1.4.0
+
+# Secrets loading from .env
+python-dotenv>=1.0.0
+
+# Used by list_groq_models.py
+requests>=2.31.0
+
+# Running the notebook
+ipykernel>=6.29.0
+
+# Web UI for project 1's agent
+streamlit>=1.38.0
